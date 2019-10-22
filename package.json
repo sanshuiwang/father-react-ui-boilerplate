@@ -1,0 +1,28 @@
+{
+  "name": "father-react-ui",
+  "version": "0.1.0",
+  "description": "Based on father, building react UI boilerplate",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "author": "sanshuiwang",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "doc:dev": "father doc dev",
+    "doc:build-deploy": "father doc build && father doc deploy",
+    "build": "father build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "father": "^2.23.1"
+  },
+  "peerDependencies": {
+    "react": "^16.10.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
